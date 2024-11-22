@@ -1,0 +1,112 @@
+body {
+	margin-top:110px!important;
+}
+/* nav css start here */
+nav {min-height:80px!important;background:white!important;border:none!important;-webkit-box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);
+box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);}
+nav .container{padding-top:15px!important;}
+nav #navbar {border:none!important;}
+nav a{font-weight:bold;}
+.active a{background-color:#337ab7!important;color:white!important;}
+.icon-bar {background-color:white!important;}
+/* nav css ends here*/
+/*css for word displayed under avatar*/
+#currentWord{
+  width: 63%;
+  margin: 0 auto;
+  margin-top: 0px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 5px;
+  font-weight: bold;
+}
+#debugger {
+    max-height: 200px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 16px;
+    margin-top: 5px;	
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav2 a {
+    padding: 8px 32px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    /*text-align: right;*/
+}
+
+.sidenav2 a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav2 .closebtn2 {
+    position: absolute;
+    top: 0;
+    /*left: 25px;*/
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+.navopenbtn {
+    font-size:0.9em;
+    cursor:pointer;
+    /*position: absolute;*/
+    padding: 9px 12px; 
+    /*top: 10px;*/
+    color: #A19DBE;
+    border-radius: 50%;
+}
+.navopenbtn:hover {
+    /*background-color: #F2F1F9;*/
+    color: #6D3BF3;
+}
